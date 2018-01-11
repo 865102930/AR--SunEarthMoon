@@ -15,6 +15,7 @@
 		254917DE2005E08000F9A705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254917DD2005E08000F9A705 /* main.m */; };
 		254917E82005E08100F9A705 /* AR_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254917E72005E08100F9A705 /* AR_____Tests.m */; };
 		254917F32005E08100F9A705 /* AR_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254917F22005E08100F9A705 /* AR_____UITests.m */; };
+		254918022005E0DF00F9A705 /* ARSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254918012005E0DF00F9A705 /* ARSceneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		254917EE2005E08100F9A705 /* AR--太阳系UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR--太阳系UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		254917F22005E08100F9A705 /* AR_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AR_____UITests.m"; sourceTree = "<group>"; };
 		254917F42005E08100F9A705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254918002005E0DF00F9A705 /* ARSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSceneViewController.h; sourceTree = "<group>"; };
+		254918012005E0DF00F9A705 /* ARSceneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSceneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				254917CF2005E08000F9A705 /* AppDelegate.m */,
 				254917D12005E08000F9A705 /* ViewController.h */,
 				254917D22005E08000F9A705 /* ViewController.m */,
+				254918002005E0DF00F9A705 /* ARSceneViewController.h */,
+				254918012005E0DF00F9A705 /* ARSceneViewController.m */,
 				254917D42005E08000F9A705 /* Main.storyboard */,
 				254917D72005E08000F9A705 /* Assets.xcassets */,
 				254917D92005E08000F9A705 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				254917D32005E08000F9A705 /* ViewController.m in Sources */,
 				254917DE2005E08000F9A705 /* main.m in Sources */,
+				254918022005E0DF00F9A705 /* ARSceneViewController.m in Sources */,
 				254917D02005E08000F9A705 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GPDLP6DKN;
 				INFOPLIST_FILE = "AR--太阳系/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GPDLP6DKN;
 				INFOPLIST_FILE = "AR--太阳系/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zkkeji.www.AR-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";

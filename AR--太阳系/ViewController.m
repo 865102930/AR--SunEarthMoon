@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ARSceneViewController.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)clickBtn:(UIButton *)sender {
+    ARSceneViewController *arSceneVC = [[ARSceneViewController alloc] init];
+    [self presentViewController:arSceneVC animated:YES completion:nil];
 }
-
 
 @end
